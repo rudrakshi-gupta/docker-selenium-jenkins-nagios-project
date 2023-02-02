@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="DockerSeleniumTests" verbose="1">
+    <test name="Test0">
+        <classes>
+            <class name="TestCases.test0" />
+        </classes>
+    </test>
+    <test name="Test1">
+        <classes>
+            <class name="TestCases.test1" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="TestCases.test2" />
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="TestCases.test3" />
+        </classes>
+    </test>
+</suite>

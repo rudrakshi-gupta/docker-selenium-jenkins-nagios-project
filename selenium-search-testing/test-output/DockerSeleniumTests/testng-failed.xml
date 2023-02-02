@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [DockerSeleniumTests]">
+  <test parallel="none" name="Test0(failed)">
+    <classes>
+      <class name="TestCases.test3">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test3 -->
+      <class name="TestCases.test2">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test2 -->
+      <class name="TestCases.test0">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test0 -->
+      <class name="TestCases.test1">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test1 -->
+    </classes>
+  </test> <!-- Test0(failed) -->
+  <test parallel="none" name="Test1(failed)">
+    <classes>
+      <class name="TestCases.test3">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test3 -->
+      <class name="TestCases.test2">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test2 -->
+      <class name="TestCases.test1">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test1 -->
+      <class name="TestCases.test0">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test0 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="none" name="Test2(failed)">
+    <classes>
+      <class name="TestCases.test3">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test3 -->
+      <class name="TestCases.test2">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test2 -->
+      <class name="TestCases.test0">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test0 -->
+      <class name="TestCases.test1">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="none" name="Test3(failed)">
+    <classes>
+      <class name="TestCases.test3">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test3 -->
+      <class name="TestCases.test2">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test2 -->
+      <class name="TestCases.test0">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test0 -->
+      <class name="TestCases.test1">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- TestCases.test1 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [DockerSeleniumTests] -->
